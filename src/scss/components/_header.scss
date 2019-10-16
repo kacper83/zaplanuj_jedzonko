@@ -1,8 +1,3 @@
-.navlink{
-  margin:15px;
-  text-decoration:none;
-  color:white;
-};
 
 .nav{
   height:90px;
@@ -10,14 +5,31 @@
   align-items:center;
   justify-content: space-around;
   margin-right:75px;
-
+  a{
+    margin:15px;
+    text-decoration:none;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    span{
+      color:#E58A20;
+    }
+  }
 };
 .header{
-  display: flex;
+  display:flex;
   justify-content:space-between;
   width:1200px;
   height:90px;
   align-content:center;
-  background-color:black;
+  background-color:#4a4a49;
+h1{
+  margin-left:75px;
+  color:white;
+  font-family: 'Charmonman', cursive;
+  font-weight: normal;
+  span{
+    color:#E58A20;
 
+  }
+}
 };
