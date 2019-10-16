@@ -14,22 +14,7 @@ export default class CallToAction extends React.Component{
             fontFamily: 'Open Sans',
 
         };
-        const navstyles={
-            height:'90px',
-            display:'flex',
-            alignItems:'center',
-            justifyContent: 'space-around',
-            marginRight:'75px'
 
-        };
-        const linkstyles={
-            margin:'15px',
-            textDecoration:'none',
-            color:"white",
-            fontFamily: 'Open Sans',
-
-
-        };
 
 
 
