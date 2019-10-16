@@ -9,7 +9,9 @@ export default class Header extends React.Component{
             width:'1200px',
             height:'90px',
             alignContent:'center',
+            alignItems:'center',
             backgroundColor:'#4a4a49',
+            fontFamily: 'Charmonman',
 
         };
         const navstyles={
@@ -24,6 +26,7 @@ export default class Header extends React.Component{
             margin:'15px',
             textDecoration:'none',
             color:"white",
+            fontFamily: 'Open Sans',
 
 
         };
