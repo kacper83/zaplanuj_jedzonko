@@ -1,0 +1,26 @@
+.first{
+  display:flex;
+  justify-content:space-between;
+  width: 1200px;
+  height:250px;
+  align-content:center;
+  align-items:center;
+  background-color:#4a4a49;
+  font-family: 'Open Sans',sans-serif;
+  .napisy{
+    margin-left:100px;
+    margin-right:100px;
+    color:white;
+    font-family:'Open Sans',sans-serif;
+  }
+  button{
+    border: none;
+    font-weight:bold;
+    margin-right:125px;
+    background-color:#ff6500;
+    color:white;
+    font-family:'Open Sans',sans-serif;
+    width:220px;
+    height:60px;
+  }
+}
