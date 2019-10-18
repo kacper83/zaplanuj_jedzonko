@@ -44,7 +44,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="footer_bottom">
-                    Copyright Zaplanuj <span>Jedzonko</span>.pl
+                    Copyright <span>Zaplanuj Jedzonko.pl</span>
                 </div>
 
             </footer>

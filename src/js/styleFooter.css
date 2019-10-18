@@ -59,10 +59,16 @@ footer .footer_top {
 
 .footer_top button {
 	padding: 5px 5px 3px 5px;
+	width: 80px;
 	font-size: 20px;
 	background-color: #e58a20;
 	color: white;
 	border: none
+}
+
+.footer_top button:hover {
+	color: black;
+	font-weight: bold;
 }
 
 
@@ -70,6 +76,7 @@ footer .footer_top {
 footer > div > div {
 	width: 30%;
 	height: 300px;
+	padding-left: 30px;
 	background-color: #4a4a49;
 	color: #fffffa;
 }
@@ -91,4 +98,5 @@ footer h1 {
 
 .footer_bottom span {
 	color: #e58a20;
+	padding-left: 10px;
 }
