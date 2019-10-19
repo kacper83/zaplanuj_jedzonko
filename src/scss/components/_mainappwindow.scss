@@ -1,0 +1,100 @@
+@import '../partials/_fonts.scss';
+@import '../partials/_colors.scss';
+.header{
+  display:flex;
+  justify-content:space-between;
+  width:1200px;
+  height:90px;
+  align-items:center;
+  background-color:#4a4a49;
+  h1{
+    margin-left:75px;
+    color:white;
+    font-family: 'Charmonman', cursive;
+    font-weight: normal;
+    span{
+      color:#E58A20;
+
+    }
+  }
+}
+.user{
+  display:flex;
+  align-items: center;
+  width:200px;
+  justify-content: space-around;
+  padding:40px;
+  i{
+    font-size:40px;
+    color:$buttons;
+    margin-left:10px;
+  }
+
+  h4{
+    color:white;
+    font-weight: normal;
+
+  }
+}
+.rest{
+  display:flex;
+  height: 100vh;
+  background-image: url("background.png");
+  .sidebar{
+    width: 235px;
+    background-color: #5b605f;
+    .navEl{
+      height: 75px;
+      display:flex;
+      align-items: center;
+      padding:25px;
+      background-color: #5b605f;
+      border:none;
+      width: 235px;
+        font-size:18px;
+        color:white;
+        font-family: $text;
+
+    }
+    .navEl:hover{
+        font-weight: bold;
+
+      
+
+    }
+    .navEl:hover::before{
+        content:"";
+        position:absolute;
+        background-color: $buttons;
+        width: 8px;
+      height: 75px;
+      margin-left:-25px;
+
+    }
+    .navEl:focus::before{
+      content:"";
+      position:absolute;
+      background-color: $buttons;
+      width: 8px;
+      height: 75px;
+      margin-left:-25px;
+
+    }
+    .navEl:hover:after{
+      content: "❯";
+      position:absolute;
+      color: $buttons;
+      margin-left:185px;
+      font-size:20px;
+
+    }
+    .navEl:focus::after{
+      content: "❯";
+      position:absolute;
+      color: $buttons;
+      margin-left:185px;
+      font-size:20px;
+
+    }
+  }
+}
