@@ -4,8 +4,10 @@ import React, {Component} from 'react';
 import Header from "../components/Header";
 import Karuzela from "../components/Karuzela";
 import CallToAction from "../components/CallToAciton";
+import AboutApp from "../components/AboutApp";
 import Newsletter from '../components/newsletter';
 import Footer from "../components/footer";
+import About from "../components/About";
 
 function App() {
     return (
@@ -15,7 +17,9 @@ function App() {
             <Header/>
             <Karuzela/>
             <CallToAction/>
+            <AboutApp/>
             <Newsletter/>
+            <About/>
             <Footer/>
         </div>
     )
