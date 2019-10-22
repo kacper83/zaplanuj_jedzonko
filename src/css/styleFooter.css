@@ -74,6 +74,7 @@ footer > div > div {
 	padding-left: 30px;
 	background-color: #4a4a49;
 	color: #fffffa;
+
 }
 
 .footer_top h1 {
@@ -84,6 +85,7 @@ footer > div > div {
 .footer_top h3 {
 	font-size: 20px;
 	line-height: 180%;
+	margin-left:10px;
 }
 
 
