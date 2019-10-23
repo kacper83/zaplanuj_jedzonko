@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <div className="footer_top">
+                <div className="footer_top" id="footer">
                     <div>
                         <h1>Lorem ipsum dolor</h1>
                         <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolore repellendus

@@ -1,5 +1,6 @@
 import React from "react";
 import '../../scss/components/_mainappwindow.scss'
+import {NavLink} from "react-router-dom";
 export default class MainApp extends React.Component{
     constructor(props){
         super(props);
@@ -11,7 +12,7 @@ export default class MainApp extends React.Component{
         return(
             <div className="aplication">
                 <div className="header" >
-                    <h1>Zaplanuj <span>Jedzonko</span></h1>
+                    <NavLink to="/" className="navlink"><h1>Zaplanuj <span>Jedzonko</span></h1></NavLink>
                     <div className="user">
                         <h4>Imię</h4> 
                         {/*tu potem bedzie this.props.name od kontenera*/}

@@ -1,10 +1,11 @@
 import React, {Component} from "react";
 import '../scss/components/_about.scss';
 
+
 class About extends Component {
     render() {
         return (
-            <div className="about">
+            <div className="about" id="oautorze">
                 <div className="avatar">
                     <img src=" "/>   {/*tutaj wstawić link do avatara*/}
                 </div>

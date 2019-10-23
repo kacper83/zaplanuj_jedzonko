@@ -4,7 +4,7 @@ import '../scss/components/_aboutApp.scss';
 class AboutApp extends Component {
     render() {
         return (
-            <div className="about-app">
+            <div className="about-app" id="oaplikacji" >
                 <div>
                     <i className="fas fa-check"></i>
                     <h2>Lorem ipsum dolor sit amet</h2>
