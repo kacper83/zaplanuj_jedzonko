@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="41fb7518-7fbd-4987-a111-8aa84bb08017" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="41fb7518-7fbd-4987-a111-8aa84bb08017" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aplication/components/MainWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplication/components/MainWindow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CallToAciton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CallToAciton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_mainappwindow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_mainappwindow.scss" afterDir="false" />
+    </list>
+>>>>>>> master
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -23,10 +39,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1SFxWCfo0pkVij50YzyK3qgamP7" />
+=======
+  <component name="ProjectId" id="1SFoLUGLNnpEKa4irLZaBiHDNPk" />
+>>>>>>> master
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -37,6 +57,20 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\scrumlab\zaplanuj_jedzonko\public" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss/components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/aplication/components" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scss/components" />
+      <recent name="$PROJECT_DIR$/src/images" />
+>>>>>>> master
     </key>
   </component>
   <component name="RunDashboard">
@@ -56,12 +90,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="d539dc01-3515-4b4e-aebd-f8376e4b5404" name="Default Changelist" comment="" />
       <created>1571173174147</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571173174147</updated>
       <workItem from="1571173175258" duration="20278000" />
+=======
+      <changelist id="41fb7518-7fbd-4987-a111-8aa84bb08017" name="Default Changelist" comment="" />
+      <created>1571168648218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571168648218</updated>
+      <workItem from="1571168649860" duration="13911000" />
+      <workItem from="1571255889995" duration="2001000" />
+      <workItem from="1571392096211" duration="781000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
@@ -81,4 +126,19 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/js/App.js</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+>>>>>>> master
 </project>

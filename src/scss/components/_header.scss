@@ -1,0 +1,35 @@
+
+.nav{
+  height:90px;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  margin-right:75px;
+  a{
+    margin:15px;
+    text-decoration:none;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    span{
+      color:#E58A20;
+    }
+  }
+};
+.header{
+  display:flex;
+  justify-content:space-between;
+  width:1200px;
+  height:90px;
+  align-items:center;
+  background-color:#4a4a49;
+h1{
+  margin-left:75px;
+  color:white;
+  font-family: 'Charmonman', cursive;
+  font-weight: normal;
+  span{
+    color:#E58A20;
+
+  }
+}
+};
