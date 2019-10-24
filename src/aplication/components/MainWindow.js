@@ -3,7 +3,7 @@ import '../../scss/components/_mainappwindow.scss'
 import {NavLink} from "react-router-dom";
 import WiadAndForm from "./WiadAndForm";
 import Pulpit from "./Pulpit";
-const api="../../database/db.json"
+
 export default class MainApp extends React.Component{
     constructor(props){
         super(props);
@@ -12,6 +12,7 @@ export default class MainApp extends React.Component{
         }
         
     }
+
 
     goPulpit=()=>{
         this.setState({
