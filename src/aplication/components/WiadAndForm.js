@@ -2,6 +2,10 @@ import React, {Component} from "react";
 import "../../scss/components/styleWiadAndForm.scss"
 
 class WiadAndForm extends Component {
+
+
+
+
     render() {
         return (
             <div className="WiadAndForm">
