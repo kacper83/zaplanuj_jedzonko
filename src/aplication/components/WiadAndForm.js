@@ -3,6 +3,10 @@ import "../../scss/components/styleWiadAndForm.scss"
 
 class WiadAndForm extends Component {
 
+    onAddName=(e) =>{
+        e.preventDefault();
+        this.props.onAddName(e.target.name.value)
+    }
 
 
 
@@ -16,7 +20,7 @@ class WiadAndForm extends Component {
                     wygląda na to, że jesteś tutaj <br/>
                     pierwszy raz
                 </h2>
-                <form action="">
+                <form action="" onSubmit={(e)=>this.onAddName(e)}>
                     <textarea name="name" id="" cols="30" rows="1   " placeholder="Tutaj wpisz jak masz na imię"></textarea>
                     <br/>
                     <button>Gotowe!</button>

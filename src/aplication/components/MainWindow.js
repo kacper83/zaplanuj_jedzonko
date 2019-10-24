@@ -9,8 +9,51 @@ export default class MainApp extends React.Component{
         super(props);
         this.state={
             render:"",
+            name:"",
         }
         
+    }
+    componentDidMount=() =>{
+        fetch('http://localhost:3001/user',{
+            method : 'GET'}).then( resp => {
+            if (resp.ok)
+                console.log( resp.json());
+            else
+                throw new Error('Błąd sieci!');
+        })
+        return fetch('http://localhost:3001/user').then(
+            resp => resp.json()
+        ).then(
+            (finalResp) => {
+                this.setState({
+                    name: finalResp.name.name,
+                })
+            }
+        );
+
+    }
+
+    onNameChange=(name)=>{
+        console.log(name);
+        fetch('http://localhost:3001/user',{
+            method: 'PATCH',
+            body: JSON.stringify({
+            name: {name}
+        }),
+            headers: {
+            "Content-type": "application/json; charset=UTF-8"
+    }
+    })
+    .then(response => response.json())
+            .then(
+                json => {
+                    this.setState({
+                        name: json.name.name,
+                        render:'pulpit'
+                    })
+                    })
+
+
     }
 
 
@@ -31,14 +74,14 @@ export default class MainApp extends React.Component{
     }
 
     render() {
-
+        console.log(this.state.name)
 
         return(
             <div className="aplication">
                 <div className="header" >
                     <NavLink to="/" className="navlink"><h1>Zaplanuj <span>Jedzonko</span></h1></NavLink>
                     <div className="user">
-                        <h4>Imię</h4> 
+                        <h4>{this.state.name}</h4>
                         {/*tu potem bedzie this.props.name od kontenera*/}
                         <i class="far fa-user-circle"></i>
 
@@ -53,10 +96,10 @@ export default class MainApp extends React.Component{
                         </div>
                     </div>
                     <div className="main">
-                        {this.state.render===""? <WiadAndForm />: null}
+                        {this.state.name===""? <WiadAndForm onAddName={this.onNameChange}/>:null}
             {/*{this.props.name? <coś tam> : komponent marka} kontener bedzie musial mu przekazywac jaką treść renderować, np czy użytkownik podał imię
             jesli nie, to jest komponent marka. */}
-                        {this.state.render==="pulpit"? <Pulpit/> :null}
+                        {this.state.render==="pulpit"&&this.state.name!==""? <Pulpit/> :null}
 
                     </div>
                 </div>
