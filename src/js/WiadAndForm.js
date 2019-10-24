@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./styleWiadAndForm.css"
+import "./styleWiadAndForm.scss"
 
 class WiadAndForm extends Component {
     render() {

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d539dc01-3515-4b4e-aebd-f8376e4b5404" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Karuzela.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Karuzela.js" afterDir="false" />
-    </list>
+    <list default="true" id="41fb7518-7fbd-4987-a111-8aa84bb08017" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +23,20 @@
     </option>
   </component>
   <component name="ProjectId" id="1SFxWCfo0pkVij50YzyK3qgamP7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\scrumlab\zaplanuj_jedzonko\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\scrumlab\zaplanuj_jedzonko\src\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\scrumlab\zaplanuj_jedzonko\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,7 +73,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
