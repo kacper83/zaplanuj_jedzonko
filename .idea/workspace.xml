@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fb7518-7fbd-4987-a111-8aa84bb08017" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aplication/components/Pulpit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aplication/components/Widgety.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_pulpit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_widgety.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aplication/components/MainWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplication/components/MainWindow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CallToAciton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CallToAciton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_mainappwindow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_mainappwindow.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -37,6 +35,7 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/scss/components" />
       <recent name="$PROJECT_DIR$/src/images" />
     </key>

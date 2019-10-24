@@ -1,0 +1,24 @@
+.recipe, .plan{
+  width:180px;
+  height: 160px;
+  border: dotted #438a66;
+  color:#438a66;
+  background-color: #fefff8;
+  margin-left: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  i{
+    font-size:60px;
+
+  }
+  p{
+    margin-top:15px;
+  }
+}
+.widgets{
+  display:flex;
+  margin-top:30px;
+  margin-left:25px;
+}

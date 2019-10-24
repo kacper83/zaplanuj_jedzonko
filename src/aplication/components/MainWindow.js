@@ -1,11 +1,32 @@
 import React from "react";
 import '../../scss/components/_mainappwindow.scss'
 import {NavLink} from "react-router-dom";
+import Pulpit from "./Pulpit";
 export default class MainApp extends React.Component{
     constructor(props){
         super(props);
+        this.state={
+            render:"",
+        }
         
     }
+
+    goPulpit=()=>{
+        this.setState({
+            render:"pulpit"
+        })
+    }
+    goRecipes=()=>{
+        this.setState({
+            render:"recipes"
+        })
+    }
+    goPlans=()=>{
+        this.setState({
+            render:"plans"
+        })
+    }
+
     render() {
 
 
@@ -23,14 +44,15 @@ export default class MainApp extends React.Component{
                 <div className="rest" >
                     <div className="sidebar">
                         <div className="navigation">
-                            <button className="navEl">Pulpit</button>
-                            <button className="navEl">Przepisy</button>
-                            <button className="navEl">Plany</button>
+                            <button className="navEl" onClick={this.goPulpit}>Pulpit</button>
+                            <button className="navEl" onClick={this.goRecipes}>Przepisy</button>
+                            <button className="navEl" onClick={this.goPlans}>Plany</button>
                         </div>
                     </div>
                     <div className="main">
             {/*{this.props.name? <coś tam> : komponent marka} kontener bedzie musial mu przekazywac jaką treść renderować, np czy użytkownik podał imię
             jesli nie, to jest komponent marka. */}
+                        {this.state.render==="pulpit"? <Pulpit/> :null}
 
                     </div>
                 </div>
