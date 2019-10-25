@@ -1,0 +1,141 @@
+.newRecipe {
+  font-family: "Open sans", sans-serif ;
+  width: 900px;
+  height: 95%;
+  background-color: white;
+  //border: 1px dashed grey;
+  //box-sizing: border-box;
+
+}
+.aplication .rest .main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newRecipe h2{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.newRecipe_header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+}
+.newRecipe_header>h2 {
+  color: #FF6600;
+  background-color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+}
+
+.newRecipe_header>button {
+  background-color: #FF6600;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.newRecipe_Description .title, .newRecipe_Description .description  {
+  color: #4a4a49;
+  display: flex;
+
+}
+
+.newRecipe_Description .title>h2 , .newRecipe_Description .description_title>h2 {
+  margin-top: 15px;
+  width: 200px;
+}
+
+.newRecipe_Description .title_content , .newRecipe_Description .description_content {
+  border: 2px solid #a3a3a3;
+  width: 75%;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 5px 10px;
+}
+
+.guidance_and_ingredients {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.guidance , .ingredients {
+  //background-color: aqua;
+  width: 48%;
+  height: 60vh;
+  position: relative;
+
+  h2 {
+    text-transform: uppercase;
+    color: #4a4a49;
+    border-bottom: 2px solid #8b8b89;
+    padding-bottom: 5px;
+  }
+}
+
+.add_guidance {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  font-size: 50px;
+  color: green;
+}
+
+.add_guidance:hover {
+  cursor: pointer;
+}
+
+.add_ingredients {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  font-size: 50px;
+  color: green;
+}
+
+.add_ingredients:hover {
+  cursor: pointer;
+}
+
+.guidance_short, .ingredients_short {
+  height: 70px;
+  width: 80%;
+  border: 2px solid #a3a3a3;
+  margin: 15px 0 30px 0;
+  font-family: Open-sans, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a49;
+  padding-left: 5px;
+}
+
+.guidance_long ol {
+  width: 100%;
+  height: 245px;
+  resize: none;
+  overflow: hidden;
+  overflow-y: scroll;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.ingredients_long ul {
+  width: 100%;
+  height: 245px;
+  resize: none;
+  overflow: hidden;
+  overflow-y: scroll;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
