@@ -3,6 +3,7 @@ import '../../scss/components/_mainappwindow.scss'
 import {NavLink} from "react-router-dom";
 import WiadAndForm from "./WiadAndForm";
 import Pulpit from "./Pulpit";
+import NewRecipe from "./NewRecipe";
 
 export default class MainApp extends React.Component{
     constructor(props){
@@ -57,7 +58,7 @@ export default class MainApp extends React.Component{
             {/*{this.props.name? <coś tam> : komponent marka} kontener bedzie musial mu przekazywac jaką treść renderować, np czy użytkownik podał imię
             jesli nie, to jest komponent marka. */}
                         {this.state.render==="pulpit"? <Pulpit/> :null}
-
+                        {this.state.render==="recipes"? <NewRecipe/> :null}
                     </div>
                 </div>
             </div>
